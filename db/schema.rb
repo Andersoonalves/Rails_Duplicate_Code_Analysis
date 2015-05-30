@@ -11,12 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150530014140) do
+ActiveRecord::Schema.define(version: 20150530015040) do
 
   create_table "companies", force: :cascade do |t|
     t.integer  "numberOfEmployees", limit: 4
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
+  end
+
+  create_table "developers", force: :cascade do |t|
+    t.date     "age"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "employees", force: :cascade do |t|
