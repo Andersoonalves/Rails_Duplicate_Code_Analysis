@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  numberOfEmployees: 1
+  number: 1.5
+  cnpj: MyString
+  adress: MyText
+  zipCode: 9.99
+
+two:
+  numberOfEmployees: 1
+  number: 1.5
+  cnpj: MyString
+  adress: MyText
+  zipCode: 9.99
