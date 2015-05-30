@@ -20,6 +20,10 @@ do
   if [ ! -s ${file}.prop.erb ]
   then
     rm ${file}.prop.erb
+  else 
+    tr -d "\n" < ${file}.prop.erb > ${file}.prop.erb.temp
+    rm ${file}.prop.erb
+    mv ${file}.prop.erb.temp ${file}.prop.erb 
   fi 
 
 

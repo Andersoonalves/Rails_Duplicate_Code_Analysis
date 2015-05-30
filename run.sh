@@ -1,4 +1,4 @@
-for mass in 3 6 16
+for mass in 4 6 16
   do
 
     for f in ".prop.erb" ".ent.erb" "controller.rb"
