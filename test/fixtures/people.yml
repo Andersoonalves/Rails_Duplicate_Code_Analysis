@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  age: 2015-05-30
+  cel: false
+  birthday: 2015-05-30 00:15:23
+  name: MyText
+  salary: 9.99
+  heigth: 1
+
+two:
+  age: 2015-05-30
+  cel: false
+  birthday: 2015-05-30 00:15:23
+  name: MyText
+  salary: 9.99
+  heigth: 1
