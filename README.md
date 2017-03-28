@@ -63,4 +63,4 @@ MIT
 
    [Flay]: <https://github.com/joemccann/dillinger>
    [Rails]: <http://rubyonrails.org/>
-   [main.sh]: <https://github.com/Andersoonalves/Rails_Duplicate_Code_Analysis/blob/scripts/main.sh>
+   [main.sh]: <https://github.com/Andersoonalves/Rails_Duplicate_Code_Analysis/blob/master/main.sh>
